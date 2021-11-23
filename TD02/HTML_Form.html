@@ -2,58 +2,33 @@
 <html lang="en">
 <head>
     <title>HTML_Form</title>
+    <link href="./extension.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <h2 align = "left" >Tell us about yourself</h2>
-    <style>
-        input[type=text],select{
-            width: 100%;
-            padding: 2px 20px;
-            display: inline-block;
-            border: 1px black #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            
-        }
-        input[type=submit]{
-            background-color: #1a38e4;
-            border: none;
-            border-radius: 4px;
-            color: white;
-            padding: 16px 32px;
-            text-decoration: none;
-            margin: 4px 2px;
-            cursor: pointer;
-            right: -100px;
-        }
-        input[type = submit]:hover{
-            opacity: 0.8;
-
-        }
-    </style>
 <hr/>
-<table width = "100%" border = "0px" cellspacing= "3px" cellpadding = "5px" >
+<table width = "80%" border = "0px" cellspacing= "3px" cellpadding = "5px" >
     <h5>Profile Information</h5>
     <tr width = "50%">
         <td >
             <form>
                 <label for = "lname" >Last name: </label><br>
-                <input type = "ltext" id="lname" name="lname" size="38"><br>
+                <input type = "ltext" id="lname" name="lname" size="50"><br>
                 <label for = "email" >Email: </label><br>
-                <input type = "ltext" id="email" name="email" size="38"><br>
+                <input type = "ltext" id="email" name="email" size="50"><br>
             </form>
         </td>
         <td>
             <form>
                 <label for = "fname" >First name: </label><br>
-                <input type = "ltext" id="fname" name="fname" size="38"><br>
+                <input type = "ltext" id="fname" name="fname" size="50"><br>
                 <label for = "p" >Phone: </label><br>
-                <input type = "ltext" id="p" name="p" size="38"><br>
+                <input type = "ltext" id="p" name="p" size="50"><br>
             </form>
         </td>
     </tr>
 </table>
-<table width = "100%" border = "0px" cellspacing= "1px" cellpadding = "1px">
+<table width = "80%" border = "0px" cellspacing= "1px" cellpadding = "1px">
     <tr>
         <td width ="25%">
             <h5>Gender</h5>
@@ -69,7 +44,7 @@
     </tr>  
 </table >
   <hr/>
-<table width = "100%" border = "0px" cellspacing= "3px" cellpadding = "5px">
+<table width = "88%" border = "0px" cellspacing= "3px" cellpadding = "5px">
     <tr width = "50%">
         <h5>Current address</h5>
         <td>
@@ -116,22 +91,23 @@
 
             <form>
                 <label for = "p" ></label>
-                <input type = "ltext" placeholder="Post Code" id="fname" name="fname" size="46"><br>
+                <input type = "ltext" placeholder="Post Code" id="fname" name="fname" size="40"><br>
             </form>
         </td>
     </tr>
 </table>
-<table  width = "100%" border = "0px" cellspacing= "3px" cellpadding = "5px">
+<table  width = "80%" border = "0px" cellspacing= "3px" cellpadding = "5px">
     <tr>
         <td>
             <label for = "address"></label>
-            <textarea id="address" name ="address" row="10" cols="109">Address</textarea>
+            <textarea id="address" name ="address" row="10" cols="129">Address</textarea>
         </td>
     </tr>
 </table>
 <table  width = "68%" border = "0px" cellspacing= "3px" cellpadding = "5px">
-    <h5>Skill &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Language </h5>
+    <h5>Skill &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Language </h5>
 
     <tr>
         <td>
@@ -169,17 +145,17 @@
         </td>
     </tr>
 </table>
-<table width = "90%" border = "0px" cellspacing= "3px" cellpadding = "5px">
+<table width = "80%" border = "0px" cellspacing= "3px" cellpadding = "5px">
     <h5>Experience</h5>
     <tr width = "50%">
         <td >
             <form>
                 <label for = "box" >From</label><br>
-                <input type = "ltext" id="box" name="box" size="20">
+                <input type = "ltext" id="box" name="box" size="20"><br>
                 <label for = "box1" ></label><br>
-                <input type = "ltext" id="box1" name="box1" size="20">
+                <input type = "ltext" id="box1" name="box1" size="20"><br>
                 <label for = "box2" ></label><br>
-                <input type = "ltext" id="box" name="box2" size="20">
+                <input type = "ltext" id="box" name="box2" size="20"><br>
                 <label for = "box3" ></label><br>
                 <input type = "ltext" id="box" name="box3" size="20"><br>
             </form>
@@ -187,11 +163,11 @@
         <td >
             <form>
                 <label for = "box" >To</label><br>
-                <input type = "ltext" id="box" name="box" size="20">
+                <input type = "ltext" id="box" name="box" size="20"><br>
                 <label for = "box1" ></label><br>
-                <input type = "ltext" id="box1" name="box1" size="20">
+                <input type = "ltext" id="box1" name="box1" size="20"><br>
                 <label for = "box2" ></label><br>
-                <input type = "ltext" id="box" name="box2" size="20">
+                <input type = "ltext" id="box" name="box2" size="20"><br>
                 <label for = "box3" ></label><br>
                 <input type = "ltext" id="box" name="box3" size="20"><br>
             </form>
@@ -199,13 +175,13 @@
         <td >
             <form>
                 <label for = "box" >Description</label><br>
-                <input type = "ltext" id="box" name="box" size="40">
+                <input type = "ltext" id="box" name="box" size="50"><br>
                 <label for = "box1" ></label><br>
-                <input type = "ltext" id="box1" name="box1" size="40">
+                <input type = "ltext" id="box1" name="box1" size="50"><br>
                 <label for = "box2" ></label><br>
-                <input type = "ltext" id="box" name="box2" size="40">
+                <input type = "ltext" id="box" name="box2" size="50"><br>
                 <label for = "box3" ></label><br>
-                <input type = "ltext" id="box" name="box3" size="40"><br>
+                <input type = "ltext" id="box" name="box3" size="50"><br>
             </form>
         </td>
 </table>
@@ -214,11 +190,11 @@
         <label for="myfile"></label>
         <input type="file" id="myfile" name="myfile"><br><br>
     </from>
-<center>
+
         <from>          
             <input type="submit" value="Submit"><br><br>
         </from>
         
-</center>
+
 </body>
 </html>
