@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML_Form</title>
+</head>
+<body>
+    <h2 align = "left" >Tell us about yourself</h2>
+    <style>
+        input[type=text],select{
+            width: 100%;
+            padding: 2px 20px;
+            display: inline-block;
+            border: 1px black #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            
+        }
+        input[type=submit]{
+            background-color: #1a38e4;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+            right: -100px;
+        }
+        input[type = submit]:hover{
+            opacity: 0.8;
+
+        }
+    </style>
+<hr/>
+<table width = "100%" border = "0px" cellspacing= "3px" cellpadding = "5px" >
+    <h5>Profile Information</h5>
+    <tr width = "50%">
+        <td >
+            <form>
+                <label for = "lname" >Last name: </label><br>
+                <input type = "ltext" id="lname" name="lname" size="38"><br>
+                <label for = "email" >Email: </label><br>
+                <input type = "ltext" id="email" name="email" size="38"><br>
+            </form>
+        </td>
+        <td>
+            <form>
+                <label for = "fname" >First name: </label><br>
+                <input type = "ltext" id="fname" name="fname" size="38"><br>
+                <label for = "p" >Phone: </label><br>
+                <input type = "ltext" id="p" name="p" size="38"><br>
+            </form>
+        </td>
+    </tr>
+</table>
+<table width = "100%" border = "0px" cellspacing= "1px" cellpadding = "1px">
+    <tr>
+        <td width ="25%">
+            <h5>Gender</h5>
+        </td>
+        <td>
+            <from>
+                <input type="radio" id ="m" name="gender" value="Male">
+                <label for="m">Male</label>
+                <input type="radio" id ="f" name="gender" value="female">
+                <label for="f">Female</label>
+            </from>
+        </td>
+    </tr>  
+</table >
+  <hr/>
+<table width = "100%" border = "0px" cellspacing= "3px" cellpadding = "5px">
+    <tr width = "50%">
+        <h5>Current address</h5>
+        <td>
+            <form>
+                <label for = "province/city" ></label>
+                <select id="province/city" name="province/city">
+                    <option 
+                        value="Province/City">Province/City</option>
+                    <option 
+                        value="Province/City">Phnom Penh</option>
+                    <option 
+                        value="Province/City">Siem Reap</option>
+                    <option 
+                        value="Province/City">Kro Ches</option>
+                </select>
+            </form>
+        </td>
+       
+            <td >
+            <form>
+                <label for = "country"> </label>
+                <select id="country" name="country">
+                    <option 
+                        value="country">Country</option>
+                    <option 
+                        value="country">Cambodia</option>
+                    <option 
+                        value="country">France</option>
+                    <option 
+                        value="country">Korean</option>
+                    <option 
+                        value="country">China</option>
+                    <option 
+                        value="country">India</option>
+                    <option 
+                        value="country">United States</option>
+                    
+                </select>
+            </form>
+        </td>
+        <td>
+        </td>
+        <td>
+
+            <form>
+                <label for = "p" ></label>
+                <input type = "ltext" placeholder="Post Code" id="fname" name="fname" size="46"><br>
+            </form>
+        </td>
+    </tr>
+</table>
+<table  width = "100%" border = "0px" cellspacing= "3px" cellpadding = "5px">
+    <tr>
+        <td>
+            <label for = "address"></label>
+            <textarea id="address" name ="address" row="10" cols="109">Address</textarea>
+        </td>
+    </tr>
+</table>
+<table  width = "68%" border = "0px" cellspacing= "3px" cellpadding = "5px">
+    <h5>Skill &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Language </h5>
+
+    <tr>
+        <td>
+                <from>
+                    <input type ="checkbox" id="box" name="box" value="design"
+                    <label for="box">Design</label><br>
+                    <input type ="checkbox" id="box1" name="box1" value="coding"
+                    <label for="box1">coding</label><br>
+                </from>
+
+        </td>
+        <td>
+            <from>
+                <input type ="checkbox" id="box" name="box" value="Database"
+                <label for="box">Database Management</label><br>
+                <input type ="checkbox" id="box1" name="box1" value="debug"
+                <label for="box1">Debug</label><br>
+            </from>
+        </td>
+        <td>
+            <from>
+                <input type ="checkbox" id="box" name="box" value="l1"
+                <label for="box">English</label><br>
+                <input type ="checkbox" id="box1" name="box1" value="l2"
+                <label for="box1">Frence</label><br>
+            </from>
+
+        </td>
+        <td>
+            <from>
+                <input type ="checkbox" id="box" name="box" value="l3"
+                <label for="box">Chiness</label><br>
+                <br>
+            </from>
+        </td>
+    </tr>
+</table>
+<table width = "90%" border = "0px" cellspacing= "3px" cellpadding = "5px">
+    <h5>Experience</h5>
+    <tr width = "50%">
+        <td >
+            <form>
+                <label for = "box" >From</label><br>
+                <input type = "ltext" id="box" name="box" size="20">
+                <label for = "box1" ></label><br>
+                <input type = "ltext" id="box1" name="box1" size="20">
+                <label for = "box2" ></label><br>
+                <input type = "ltext" id="box" name="box2" size="20">
+                <label for = "box3" ></label><br>
+                <input type = "ltext" id="box" name="box3" size="20"><br>
+            </form>
+        </td>
+        <td >
+            <form>
+                <label for = "box" >To</label><br>
+                <input type = "ltext" id="box" name="box" size="20">
+                <label for = "box1" ></label><br>
+                <input type = "ltext" id="box1" name="box1" size="20">
+                <label for = "box2" ></label><br>
+                <input type = "ltext" id="box" name="box2" size="20">
+                <label for = "box3" ></label><br>
+                <input type = "ltext" id="box" name="box3" size="20"><br>
+            </form>
+        </td>
+        <td >
+            <form>
+                <label for = "box" >Description</label><br>
+                <input type = "ltext" id="box" name="box" size="40">
+                <label for = "box1" ></label><br>
+                <input type = "ltext" id="box1" name="box1" size="40">
+                <label for = "box2" ></label><br>
+                <input type = "ltext" id="box" name="box2" size="40">
+                <label for = "box3" ></label><br>
+                <input type = "ltext" id="box" name="box3" size="40"><br>
+            </form>
+        </td>
+</table>
+<h5>Choose your profile photo</h5>
+    <from action="/action_page.php">
+        <label for="myfile"></label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+    </from>
+<center>
+        <from>          
+            <input type="submit" value="Submit"><br><br>
+        </from>
+        
+</center>
+</body>
+</html>
